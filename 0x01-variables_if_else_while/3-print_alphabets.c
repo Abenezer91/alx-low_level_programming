@@ -7,18 +7,13 @@
 **/
  int main(void)
 {
-	char ch;
-	printf("\nLowercase characters : \n");
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for(i = 0; i < 52; i++)
 	{
-		printf("%c ", ch);
+		putchar(alp[i]);
 	}
-	printf("Uppercase characters : \n");
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	{
-		printf("%c ", ch);
-	}
+	putchar('\n')
 	return 0;
 }
