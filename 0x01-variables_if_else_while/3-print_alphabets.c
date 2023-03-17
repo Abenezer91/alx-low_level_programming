@@ -4,7 +4,7 @@
  * main -Prints the alphabet in lowercase, and then in uppercase.
  * 
  * Return: Always 0 (Success)
-**/
+*/
  int main(void)
 {
 	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -14,6 +14,6 @@
 	{
 		putchar(alp[i]);
 	}
-	putchar('\n')
+	putchar('\n');
 	return 0;
 }
