@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * print_sign - Determination if the input number 
+  * print_sign - Determination if the input number
   * greater, equal or less than zero.
   *
   *@n: The input number as integer.
@@ -11,7 +11,7 @@
   */
 int print_sign(int n)
 {
-	if (n >0)
+	if (n > 0)
 	{
 		_putchar(43);
 		return (1);
