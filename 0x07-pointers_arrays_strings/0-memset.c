@@ -5,6 +5,7 @@
   *@s: input 
   *@b: input
   *@n: input
+  *
   * Return: Always 0 (Success)
   */
 char *_memset(char *s, char b, unsigned int n)
@@ -14,8 +15,7 @@ char *_memset(char *s, char b, unsigned int n)
 	for (;n > 0; i++)
 	{
 		s[i] = b;
-	        n--;
+		n--;
 	}
-
 	return (s);
 }
