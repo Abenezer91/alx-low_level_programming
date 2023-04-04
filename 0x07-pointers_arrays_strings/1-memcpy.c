@@ -5,7 +5,7 @@
   *@src: memory were copied
   *@n: number of bytes
   *
-  *Return:
+  *Return: Returns a pointer to dest
   */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
