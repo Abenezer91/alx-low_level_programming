@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  *print_diagrams - Entry point
+  *print_diagsums - Entry point
   *@a: input
   *@size: input
   *Return: to make sure you understand how an array of array
