@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_len - input 
+ * listint_len - input
  * @h: linked list_input
  *
  * Return: number of nodes
