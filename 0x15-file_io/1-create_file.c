@@ -5,7 +5,7 @@
  * @filename: input
  * @text_content:input
  *
- * Return: fail - -1 and otherwise - 1 
+ * Return: fail - -1 and otherwise - 1
  *
  */
 int create_file(const char *filename, char *text_content)
