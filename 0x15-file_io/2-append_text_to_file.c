@@ -2,8 +2,9 @@
 
 /**
  * append_text_to_file - input
- * @filename _ input
+ * @filename: input
  * @text_content: input
+ *
  *
  * Return: fails - -1 otherwise - 1
  *
